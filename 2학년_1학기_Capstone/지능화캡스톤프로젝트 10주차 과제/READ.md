@@ -32,6 +32,8 @@
   - Epochs: 100
   - Batch size: 16
   - Image size: 960
+- 학습 소스코드:  
+  [`yolov8l_250524_ep100_bs16_sz960_1.ipynb`](./yolov8l_250524_ep100_bs16_sz960_1.ipynb)
 
 ---
 
@@ -57,8 +59,13 @@
  🖼️ Test 결과 이미지
 
 - YOLOv8l 모델을 통해 추론한 Test 이미지 시각화
-- 결과 저장 경로: `runs/detect/exp*`
-- 예시 이미지:
+- 테스트 이미지 추론 결과 저장:  
+  [`predict/`](./predict/)  
+  (또는 [`yolo_predict.zip`](./yolo_predict.zip))
+
+- 학습 전체 결과 폴더:
+  [`yolov8l_ep100_bs16_img960`](./yolov8l_ep100_bs16_img960/)
 
 ```python
+ 예시 추론 코드
 results = model.predict("/content/capstone_project-9/test/images", save=True)
