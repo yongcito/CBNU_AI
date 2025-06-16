@@ -5,11 +5,12 @@
 ---
 
  📦 폴더 구조
-
+ 
+```
 dataset/
 ├── dataset_overview.ipynb  📊 데이터 분포·샘플·통계 분석 노트북
 └── README.md  📑 데이터셋 설명 파일(본 문서)
-
+```
 
 ---
 
